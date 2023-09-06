@@ -6,7 +6,7 @@
 }
 
 body {
-    background: url(img/Fondo.gif);
+    background: #171525;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -19,7 +19,9 @@ a {
 }
 
 ul {
+    background: #353535;
     list-style: none;
+    border-radius: 15px;
 }
 
 .container {
@@ -51,4 +53,16 @@ ul {
 .nav-main ul.nav-menu {
     flex: 1;
     margin-left: 20px;
+}
+
+/* Text */
+
+.Text {
+    font-size: 20px;
+    background: #353535;
+    border-radius: 15px;
+    color: white;
+    display: block;
+    align-items: center;
+    padding: 10px 0;
 }
