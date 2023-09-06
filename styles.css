@@ -63,6 +63,8 @@ ul {
     border-radius: 15px;
     color: white;
     display: block;
-    align-items: center;
     padding: 10px 0;
+    width: 50%;
+    height: 50%;
+    align-items: center;
 }
