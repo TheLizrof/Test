@@ -9,31 +9,155 @@
     <meta name="description" content="Un simple sitio web">
     <title>🙡 · ┈┈┈┈┈ · ✞ · ┈┈┈┈┈ · 🙣</title>
     <link rel="shortcut icon" href="img/favicon.ico.png" />
-    <!-- Font Awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!--Customm CSS-->
     <link rel="stylesheet" href="styles.css">
 </head>
 
+
+
 <body>
-<header>
-    <nav>
-        <a href="#" class="nav-link" id="nav-1">Me</a>
-        <a href="#" class="nav-link">Projects</a>
-        <a href="#" class="nav-link">Credists</a>
-    </nav>
-</header>
-    <div class="Text">
-    <br>
-        <a href="https://github.com/TheLizrof"><img class="Perfil" src="img/Logo.jpeg" alt="Logo"></a>
-    <br>
-    <br>
-    <br>
-        <h2>Hola</h2>
-    <br>
-        <p>Hola, soy The Lizrof, un apasionado diseñador web con enfoque en la creación de experiencias digitales únicas y impactantes. Con una combinación de creatividad, habilidades técnicas y atención al detalle, mi objetivo es diseñar sitios web que no solo se vean increíbles, sino que también cumplan con los objetivos de mis clientes. A través de un enfoque minimalista y pulcro, busco transmitir mensajes claros y concisos, manteniendo una estética elegante y funcional. Estoy emocionado de trabajar contigo y ayudarte a destacar en el mundo digital con un portafolio que refleje tu visión y personalidad.</p>
-        <br>
-        <p class="author"><a href="https://github.com/TheLizrof">© The Lizrof</a></p>
+    <div class="container navbar">
+        <header>
+            <div class="logo">
+                <h1>The Lizrof</h1>
+            </div>
+
+
+
+            <nav>
+                <ul>
+                    <li><a href="#about">about me</a></li>
+                    <li><a href="#skills">skills</a></li>
+                    <li><a href="#work">my work</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+
+
+    <div class="container mail info section">
+        <div class="text">
+            <h1>
+                <span>H</span>
+                <span class="m-left">i</span>
+                <span class="m-left">,</span>
+                <br>
+                <span class="m-left">'</span>
+                <span class="m-left">m</span>
+                <span class="name">D</span>
+                <span class="m-left name">a</span>
+                <span class="m-left name">n</span>
+                <span class="m-left name">i</span>
+                <span class="m-left name">e</span>
+                <span class="m-left name">l</span>
+                <span class="m-left">,</span>
+                <br>
+                <span>W</span>
+                <span class="m-left">e</span>
+                <span class="m-left">b</span>
+                <span>D</span>
+                <span class="m-left">e</span>
+                <span class="m-left">s</span>
+                <span class="m-left">i</span>
+                <span class="m-left">g</span>
+                <span class="m-left">n</span>
+                <span class="m-left">e</span>
+                <span class="m-left">r</span>
+                <span class="m-left">.</span>
+            </h1>
+            <p>HTML / CSS / JavaScript</p>
+            <a href="#contact">contact me</a>
+        </div>
+        <div class="profile-image">
+            <img src="img/profile-image.jpeg" alt="Logo">
+        </div>
+    </div>
+
+
+    <div class="container about" id="about">
+        <h1>About</h1>
+        <div class="about-me-info">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis cum vero, accusantium enim ut modi voluptatibus quis deserunt. Nisi minus doloremque cupiditate ea vel modi sapiente placeat porro saepe ducimus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis cum vero, accusantium enim ut modi voluptatibus quis deserunt. Nisi minus doloremque cupiditate ea vel modi sapiente placeat porro saepe ducimus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis cum vero, accusantium enim ut modi voluptatibus quis deserunt. Nisi minus doloremque cupiditate ea vel modi sapiente placeat porro saepe ducimus.</p>
+        </div>
+        <img src="img/dotted-shape.png" alt="">
+    </div>
+
+
+    <div class="container skills" id="skills">
+        <h1>Skills</h1>
+        <p class="skills-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo blanditiis similique laboriosam, vero aliquam ipsum recusandae odio culpa velit laborum quibusdam eligendi tempora architecto deleniti quas! Voluptatum nam sint iusto?</p>
+        <div class="html">
+            <div class="tag-html">
+                <p>HTML</p>
+            </div>
+            <div class="progressbar">
+                <div class="bat-html"></div>
+            </div>
+        </div>
+        <div class="html">
+            <div class="tag-css">
+                <p>HTML</p>
+            </div>
+            <div class="progressbar">
+                <div class="bat-css"></div>
+            </div>
+        </div>
+        <div class="html">
+            <div class="tag-javascript">
+                <p>HTML</p>
+            </div>
+            <div class="progressbar">
+                <div class="bat-javascript"></div>
+            </div>
+        </div>
+        <div class="html">
+            <div class="tag-react">
+                <p>HTML</p>
+            </div>
+            <div class="progressbar">
+                <div class="bat-react"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container work" id="work">
+        <h1>Work</h1>
+        <div class="work-category">
+            <button id="designing" class="active">Web Designing</button>
+            <button id="animation">Web Animation</button>
+            <button id="project">React Projects</button>
+        </div>
+        <div class="category-designing showCategory">
+            <a href=""><img src="img/1.png" alt=""></a>
+            <a href=""><img src="img/2.png" alt=""></a>
+            <a href=""><img src="img/3.png" alt=""></a>
+            <a href=""><img src="img/2.png" alt=""></a>
+            <a href=""><img src="img/3.png" alt=""></a>
+        </div>
+        <div class="category-designing hideCategory">
+            <a href=""><img src="img/1.png" alt=""></a>
+            <a href=""><img src="img/2.png" alt=""></a>
+            <a href=""><img src="img/3.png" alt=""></a>
+        </div>
+        <div class="category-designing showCategory">
+            <a href=""><img src="img/1.png" alt=""></a>
+            <a href=""><img src="img/2.png" alt=""></a>
+            <a href=""><img src="img/3.png" alt=""></a>
+            <a href=""><img src="img/2.png" alt=""></a>
+        </div>
+
+        <div class="container contact" id="contact">
+            <h1>Contact</h1>
+            <form>
+                <input type="text">
+                <input type="text">
+                <input type="text">
+            </form>
+        </div>
     </div>
 </body>
 </html>
