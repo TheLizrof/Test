@@ -45,8 +45,8 @@ h1{
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .buttons{
@@ -105,22 +105,14 @@ h1{
 }
 
 .footer{
-    display: flex;
+    background-color: #ffffff21;
     text-align: center;
+    padding: 30px;
     position: absolute;
     bottom: 0px;
     width: 100%;
 }
 
 .icon{
-    color: #FFC700;
-    text-align: center;
-    left: 5px;
-}
-
-footer a img{
-    color: #FFC700;
-    width: 10px;
-    height: 10px;
-    left: 5px;
+    padding: 0px 10px;
 }
