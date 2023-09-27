@@ -96,14 +96,18 @@ h1{
 
 .Contacto:hover{
     background-color: #ffe06f;
+    color: #fff;
+    transition: background-color 1s ease-out;
 }
 
 .but1:hover{
     background-color: #ffffff21;
+    transition: background-color 1s ease-out;
 }
 
 .but2:hover{
     background-color: #ffffff21;
+    transition: background-color 1s ease-out;
 }
 
 .footer{

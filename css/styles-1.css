@@ -17,15 +17,20 @@ body{
     color: #fff;
     text-align: center;
     margin-top: 40px;
-    margin-bottom: 90px;
+    margin-bottom: 30px;
     font-family: 'Roboto Mono', monospace;
+}
+
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
 }
 
 .Contenedor{
     max-width: 11270px;
     background: #ffffff21;
     color: #fff;
-    text-align: center;
     padding: 1.5em;
     margin-left: 20px;
     margin-right: 20px;
@@ -33,10 +38,34 @@ body{
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.466);
 }
 
-h1{
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 30px;
+.Formulario form button, .Formulario form input, .Formulario form textarea{
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: none;
+    color: #fff;
+    border-bottom: 1px solid #ffe06f;
+    margin-bottom: 10px;
+}
+
+.Formulario form button{
+    background: #ffc800;
+    color: #272727;
+    border: 0;
+    font-family: 'Roboto Mono', monospace;
+    text-transform: uppercase;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.466);
+}
+
+.Formulario form button:hover, .Formulario form button:focus{
+    background: #ffe06f;
+    color: #fff;
+    transition: background-color 1s ease-out;
+    outline: 0;
+    box-shadow: 0 0 20px 0 rgba(105, 105, 105, 0.466);
+    transition: box-shadow 1s ease-out;
+    transition: color 1s ease-out;
 }
 
 .footer{
@@ -51,4 +80,44 @@ h1{
 
 .icon{
     padding: 0px 10px;
+}
+
+@media (min-width: 780px){
+    .Contenedor{
+        max-width: 780px;
+        display: grid;
+        place-items: center;
+        margin: auto;
+        margin-top: 4em;
+    }
+    
+    .Formulario form button, .Formulario form input, .Formulario form textarea{
+        width: 100%;
+        padding: 1em;
+        border: none;
+        background: none;
+        outline: none;
+        color: #fff;
+        border-bottom: 1px solid #ffe06f;
+        margin-bottom: 10px;
+    }
+    
+    .Formulario form button{
+        background: #ffc800;
+        color: #272727;
+        border: 0;
+        font-family: 'Roboto Mono', monospace;
+        text-transform: uppercase;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.466);
+    }
+
+    .Formulario form button:hover, .Formulario form button:focus{
+        background: #ffe06f;
+        color: #fff;
+        transition: background-color 1s ease-out;
+        outline: 0;
+        box-shadow: 0 0 20px 0 rgba(105, 105, 105, 0.466);
+        transition: box-shadow 1s ease-out;
+        transition: color 1s ease-out;
+    }
 }
